@@ -54,4 +54,9 @@ public class Computer {
             System.out.println("No hay suficiente espacio. ");
         }
     }
+    public void format(OperatingSystem os) {
+        hardDisk += os.getOsSpaceRequirement();
+        ramMemory += +os.getOsRamMemoryRequirement();
+        operativeSystem = null;
+    }
 }
