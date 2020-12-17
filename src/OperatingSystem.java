@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class OperatingSystem {
+public class OperatingSystem{
     private String osName;
     private String osVersion;
     private String osArchitecture;
@@ -23,68 +23,75 @@ public class OperatingSystem {
         this.osRamMemoryRequirement = osRamMemoryRequirement;
     }
 
-    public String getOsName() {
-        return osName;
-    }
+        public String getOsName () {
+            return osName;
+        }
 
-    public void setOsName(String osName) {
-        this.osName = osName;
-    }
+        public void setOsName (String osName){
+            this.osName = osName;
+        }
 
-    public String getOsVersion() {
-        return osVersion;
-    }
+        public String getOsVersion () {
+            return osVersion;
+        }
 
-    public void setOsVersion(String osVersion) {
-        this.osVersion = osVersion;
-    }
+        public void setOsVersion (String osVersion){
+            this.osVersion = osVersion;
+        }
 
-    public String getOsArchitecture() {
-        return osArchitecture;
-    }
+        public String getOsArchitecture () {
+            return osArchitecture;
+        }
 
-    public void setOsArchitecture(String osArchitecture) {
-        this.osArchitecture = osArchitecture;
-    }
+        public void setOsArchitecture (String osArchitecture){
+            this.osArchitecture = osArchitecture;
+        }
 
-    public boolean isOsOnlyCommand() {
-        return osOnlyCommand;
-    }
+        public boolean isOsOnlyCommand () {
+            return osOnlyCommand;
+        }
 
-    public void setOsOnlyCommand(boolean osOnlyCommand) {
-        this.osOnlyCommand = osOnlyCommand;
-    }
+        public void setOsOnlyCommand ( boolean osOnlyCommand){
+            this.osOnlyCommand = osOnlyCommand;
+        }
 
-    public int getOsSpaceRequirement() {
-        return osSpaceRequirement;
-    }
+        public int getOsSpaceRequirement () {
+            return osSpaceRequirement;
+        }
 
-    public void setOsSpaceRequirement(int osSpaceRequirement) {
-        this.osSpaceRequirement = osSpaceRequirement;
-    }
+        public void setOsSpaceRequirement ( int osSpaceRequirement){
+            this.osSpaceRequirement = osSpaceRequirement;
+        }
 
-    public int getOsRamMemoryRequirement() {
-        return osRamMemoryRequirement;
-    }
+        public int getOsRamMemoryRequirement () {
+            return osRamMemoryRequirement;
+        }
 
-    public void setOsRamMemoryRequirement(int osRamMemoryRequirement) {
-        this.osRamMemoryRequirement = osRamMemoryRequirement;
-    }
+        public void setOsRamMemoryRequirement ( int osRamMemoryRequirement){
+            this.osRamMemoryRequirement = osRamMemoryRequirement;
+        }
 
-    public Software[] getOsSoftware() {
-        return osSoftware;
-    }
+        public Software[] getOsSoftware () {
+            return osSoftware;
+        }
 
-    public void setOsSoftware(Software[] osSoftware) {
-        this.osSoftware = osSoftware;
-    }
+        public void setOsSoftware (Software[]osSoftware){
+            this.osSoftware = osSoftware;
+        }
 
-    public void installsoftware(Software osSoftware) {
-        this.osSoftwares.add(osSoftware);
+        public void installsoftware (Software sw ,Computer1 c1){
+            if (c1.getHardDisk() >= sw.getSoftwareSpaceRequirement() && c1.getRamMemory() >= sw.getSoftwareRamMemoryRequierement()) {
+                c1.setRamMemory(c1.getRamMemory() - sw.getSoftwareRamMemoryRequierement());
+                c1.setHardDisk(c1.getHardDisk() - sw.getSoftwareSpaceRequirement());
+                this.osSoftwares.add(sw);
+            }else{
+                System.out.println("No hay espacio para software");
+            }
+        }
+        public void uninstallsoftware (Software sw ,Computer1 c1){
+            c1.setRamMemory(c1.getRamMemory() + sw.getSoftwareRamMemoryRequierement());
+            c1.setHardDisk(c1.getHardDisk() + sw.getSoftwareSpaceRequirement());
+            this.osSoftwares.remove(sw);
+        }
     }
-
-    public void uninstallsoftware(Software osSoftware) {
-        this.osSoftwares.remove( osSoftware);
-    }
-}
 

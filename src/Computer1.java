@@ -5,11 +5,10 @@ public class Computer1 {
     private int ramMemory;
     private OperatingSystem so;
 
-    public Computer1(String name ,int hardDisk ,int ramMemory ,Object operativeSystem) {
+    public Computer1(String name ,int hardDisk ,int ramMemory) {
         this.name = name;
         this.hardDisk = hardDisk;
         this.ramMemory = ramMemory;
-        this.InstallOS = InstallOS;
         this.so = null;
     }
 
@@ -45,11 +44,11 @@ public class Computer1 {
         this.so = so;
     }
 
-    public void installOs(OperatingSystem os) {
-        this.so = os;
-        if (this.so != null && hardDisk > os.getOsSpaceRequirement() && ramMemory > os.getOsRamMemoryRequirement()) {
-            hardDisk -= os.getOsSpaceRequirement();
-            ramMemory -= os.getOsRamMemoryRequirement();
+    public void install(OperatingSystem os) {
+        if (this.hardDisk >= os.getOsSpaceRequirement() && this.ramMemory >= os.getOsRamMemoryRequirement()) {
+            this.hardDisk = this.hardDisk - os.getOsSpaceRequirement();
+            this.ramMemory = this.ramMemory - os.getOsRamMemoryRequirement();
+            this.setSo(os);
             System.out.println("Se ha instalado Windows correctamente. ");
         } else {
             System.out.println("No hay suficiente espacio. ");

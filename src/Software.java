@@ -40,7 +40,7 @@ public class Software {
     }
 
     public void setSoftwareRamMemoryRequierement(int softwareRamMemoryRequierement) {
-        this.softwareRamMemoryRequierement = softwareRamMemoryRequierement;
+        this.softwareRamMemoryRequierement =softwareRamMemoryRequierement;
     }
 }
 
