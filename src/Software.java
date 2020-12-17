@@ -4,11 +4,11 @@ public class Software {
     private int softwareSpaceRequirement;
     private int softwareRamMemoryRequierement;
 
-    public Software(String softwareName ,String softwareVersion ,int softwareSpaceRequirement ,int softwareRamMemortyRequierement) {
+    public Software(String softwareName ,String softwareVersion ,int softwareSpaceRequirement ,int softwareRamMemoryRequierement) {
         this.softwareName = softwareName;
         this.softwareVersion = softwareVersion;
         this.softwareSpaceRequirement = softwareSpaceRequirement;
-        this.softwareRamMemoryRequierement = softwareRamMemortyRequierement;
+        this.softwareRamMemoryRequierement = softwareRamMemoryRequierement;
     }
 
     public String getSoftwareName() {

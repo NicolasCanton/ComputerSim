@@ -1,16 +1,16 @@
-public class Computer {
+public class Computer1 {
     private Object InstallOS = new Object();
     private String name;
     private int hardDisk;
     private int ramMemory;
-    private Object operativeSystem;
+    private OperatingSystem so;
 
-    public Computer(String name ,int hardDisk ,int ramMemory ,Object operativeSystem) {
+    public Computer1(String name ,int hardDisk ,int ramMemory ,Object operativeSystem) {
         this.name = name;
         this.hardDisk = hardDisk;
         this.ramMemory = ramMemory;
         this.InstallOS = InstallOS;
-        this.operativeSystem = null;
+        this.so = null;
     }
 
     public String getName() {
@@ -37,27 +37,28 @@ public class Computer {
         this.ramMemory = ramMemory;
     }
 
-    public Object getOperativeSystem() {
-        return operativeSystem;
+    public OperatingSystem getso() {
+        return so;
     }
 
-    public void setOperativeSystem(Object operativeSystem) {
-        this.operativeSystem = operativeSystem;
+    public void setSo(OperatingSystem so) {
+        this.so = so;
     }
 
-    public void install(OperatingSystem os) {
-
-        if (this.operativeSystem != null && hardDisk > os.getOsSpaceRequirement() && ramMemory > os.getOsRamMemoryRequirement()) {
-            this.hardDisk = hardDisk-os.getOsSpaceRequirement();
-            this.ramMemory = ramMemory-os.getOsRamMemoryRequirement();
-            System.out.println("Hay espacio suficiente y quedan " + hardDisk + " GB restantes" + ramMemory + " GB restantes ");
+    public void installOs(OperatingSystem os) {
+        this.so = os;
+        if (this.so != null && hardDisk > os.getOsSpaceRequirement() && ramMemory > os.getOsRamMemoryRequirement()) {
+            hardDisk -= os.getOsSpaceRequirement();
+            ramMemory -= os.getOsRamMemoryRequirement();
+            System.out.println("Se ha instalado Windows correctamente. ");
         } else {
             System.out.println("No hay suficiente espacio. ");
         }
     }
+
     public void format(OperatingSystem os) {
         hardDisk += os.getOsSpaceRequirement();
         ramMemory += +os.getOsRamMemoryRequirement();
-        operativeSystem = null;
+        so = null;
     }
 }

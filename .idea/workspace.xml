@@ -21,8 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ebb986e6-8416-4ae6-ae7e-e5c23826ace5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OperatingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatingSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Software.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Software.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,9 @@
       <workItem from="1607535705186" duration="261000" />
       <workItem from="1607535983386" duration="3635000" />
       <workItem from="1607540732917" duration="1338000" />
-      <workItem from="1607697066425" duration="1127000" />
+      <workItem from="1607697066425" duration="1665000" />
+      <workItem from="1607701202337" duration="17000" />
+      <workItem from="1608216882674" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="Entornos updates">
       <created>1607540256391</created>
@@ -104,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607542521784</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updates">
+      <created>1607698580818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607698580818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,48 +136,69 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entornos updates" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1607536271289">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser/0.0.1440.860@0.0.1440.860" timestamp="1607536271289" />
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1607536333483">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1607701216025">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1607536333483" />
-    <state x="598" y="328" key="Github.ShareDialog" timestamp="1607539726682">
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1607701216025" />
+    <state x="598" y="328" key="Github.ShareDialog" timestamp="1608217582858">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="598" y="328" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1607539726682" />
+    <state x="598" y="328" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1608217582858" />
     <state x="499" y="135" key="Github.UntrackedFilesDialog" timestamp="1607539735819">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="499" y="135" key="Github.UntrackedFilesDialog/0.0.1440.860@0.0.1440.860" timestamp="1607539735819" />
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom" timestamp="1607698153009">
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1608217546450">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1607698153009" />
-    <state width="1397" height="222" key="GridCell.Tab.0.center" timestamp="1607698153009">
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state width="1397" height="276" key="GridCell.Tab.0.center" timestamp="1608217546450">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1607698153009" />
-    <state width="1397" height="222" key="GridCell.Tab.0.left" timestamp="1607698153009">
+    <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state width="1397" height="276" key="GridCell.Tab.0.left" timestamp="1608217546450">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1607698153009" />
-    <state width="1397" height="222" key="GridCell.Tab.0.right" timestamp="1607698153009">
+    <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state width="1397" height="276" key="GridCell.Tab.0.right" timestamp="1608217546450">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="222" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1607698153009" />
+    <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1608217546450">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1608217546450">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1608217546450">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1608217546450">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
+    <state x="358" y="191" key="MultipleFileMergeDialog" timestamp="1607698606370">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="358" y="191" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1607698606370" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1607535957487">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1607535957487" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1607542523647">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1607698583621">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1607542523647" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1607698583621" />
   </component>
 </project>
