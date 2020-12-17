@@ -16,7 +16,7 @@ public class Software {
     }
 
     public void setSoftwareName(String softwareName) {
-        this.softwareName = softwareName;
+        this.softwareName =softwareName;
     }
 
     public String getSoftwareVersion() {

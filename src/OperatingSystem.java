@@ -84,7 +84,7 @@ public class OperatingSystem {
     }
 
     public void uninstallsoftware(Software osSoftware) {
-        this.osSoftwares.remove(osSoftware);
+        this.osSoftwares.remove( osSoftware);
     }
 }
 

@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb986e6-8416-4ae6-ae7e-e5c23826ace5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Computer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OperatingSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OperatingSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Software.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Software.java" afterDir="false" />
-    </list>
+    <list default="true" id="ebb986e6-8416-4ae6-ae7e-e5c23826ace5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +86,7 @@
       <workItem from="1607540732917" duration="1338000" />
       <workItem from="1607697066425" duration="1665000" />
       <workItem from="1607701202337" duration="17000" />
-      <workItem from="1608216882674" duration="689000" />
+      <workItem from="1608216882674" duration="1050000" />
     </task>
     <task id="LOCAL-00001" summary="Entornos updates">
       <created>1607540256391</created>
@@ -115,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607698580818</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1608217928447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608217928447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,9 +136,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Entornos updates" />
-    <MESSAGE value="update" />
     <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="525" y="114" key="#com.intellij.ide.util.MemberChooser" timestamp="1607536271289">
@@ -148,10 +149,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1607701216025" />
-    <state x="598" y="328" key="Github.ShareDialog" timestamp="1608217582858">
+    <state x="598" y="328" key="Github.ShareDialog" timestamp="1608217781990">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="598" y="328" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1608217582858" />
+    <state x="598" y="328" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1608217781990" />
     <state x="499" y="135" key="Github.UntrackedFilesDialog" timestamp="1607539735819">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -188,17 +189,17 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1608217546450" />
-    <state x="358" y="191" key="MultipleFileMergeDialog" timestamp="1607698606370">
+    <state x="358" y="191" key="MultipleFileMergeDialog" timestamp="1608217889064">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="358" y="191" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1607698606370" />
+    <state x="358" y="191" key="MultipleFileMergeDialog/0.0.1440.860@0.0.1440.860" timestamp="1608217889064" />
     <state x="221" y="75" key="SettingsEditor" timestamp="1607535957487">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="221" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1607535957487" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1607698583621">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1608217943760">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1607698583621" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1608217943760" />
   </component>
 </project>

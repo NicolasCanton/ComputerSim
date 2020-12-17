@@ -59,6 +59,6 @@ public class Computer1 {
     public void format(OperatingSystem os) {
         hardDisk += os.getOsSpaceRequirement();
         ramMemory += +os.getOsRamMemoryRequirement();
-        so = null;
+        so =null;
     }
 }
