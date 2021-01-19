@@ -1,0 +1,44 @@
+import java.util.HashMap;
+import java.util.Scanner;
+public class Ejer06 {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+
+        boolean Correcto = false;
+        int contador = 0;
+        String user;
+        String password;
+
+        HashMap<String, String> usuarios = new HashMap();
+
+        usuarios.put("Nico", "1234");
+        usuarios.put("Juan", "2345");
+        usuarios.put("Pedro", "3456");
+        usuarios.put("Manolo", "4567");
+
+        while (contador != 3 && !Correcto) {
+            System.out.print("Introduce el usuario: ");
+            user = s.next();
+
+            System.out.print("Introduce la contraseña: ");
+            password = s.next();
+
+            if ((usuarios.containsKey(user)) && (usuarios.get(user).equals(password))) {
+                System.out.println("Ha accedido al área restringida.");
+                Correcto = true;
+
+            } else {
+                if (contador == 3) {
+                    System.out.println("Lo siento, no tiene acceso al área restringida.");
+                } else {
+                    System.out.println("Error durante la comprobacion. Por favor "
+                            + "vuelva a intentarlo.\n");
+                }
+
+                contador++;
+            }
+        }
+    }
+}
+
+
